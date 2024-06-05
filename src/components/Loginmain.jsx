@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../assets/logo.png'
 import Plus from '../assets/plus.png'
 
-const Login = ({center,number,last,report}) => {
+const Login = ({center,number,last,report,logout}) => {
   return (
     <div>
 
@@ -17,6 +17,7 @@ const Login = ({center,number,last,report}) => {
                 </div>
               {report}
               {center}
+              {logout}
 <div className='w-full flex  '>
 <div className='w-[40px]'>
 
